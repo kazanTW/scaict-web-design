@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #222222;
+	color: #ffffff;
+	font-family: sans;
+}
+
+h1,
+h2,
+.writer {
+	text-align: center;
+	color: hsl(2deg, 98%, 50%);
+	text-decoration: none;
+	margin-bottom: 1em;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+p {
+	font-size: 1.3em !important;
+}
+
+a, 
+a:visited {
+	text-decoration: none;
+	color: hsl(2deg, 98%, 50%);
+}
+
+a:hover {
+	color: hsl(22deg, 75%, 99%);
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	align-content: center;
+}
+
+div {
+	border: 0.15em white solid;
+	border-radius: 20px;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.notes {
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.input li {
+	font-weight: bold;
+}
